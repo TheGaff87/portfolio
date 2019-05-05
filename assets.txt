@@ -1,0 +1,19 @@
+Headline: Hi, my name is Michelle Gaffney, and I'm a full-stack web developer. (I also really like kangaroos.)
+
+Bio: 
+I love coding because it gives me the satisfaction of challenging myself intellectually and creating something useful that can help other people. I particularly enjoy working on full-stack applications. Building an API is a completely different experience from writing React components and I love that variety.
+When I'm not coding, I spend my time traveling, attending fan conventions to celebrate my favorite sci-fi and superhero TV shows and movies, and playing video games (mostly the nostalgic ones.) I'm still trying to teach myself piano and I actually use my elliptical.
+
+Projects:
+
+Featured Creatures helps users find behind-the-scenes, up-close-and-personal encounters with their favorite animals at zoos around the world. The app is built with React, Node, Express, MongoDB, HTML5, and CSS3. I always enjoy animal encounters when I visit a new zoo, so I was excited to use them as a subject for this project.
+Github: https://github.com/TheGaff87/featured_creatures_client
+Live app: https://featured-creatures.herokuapp.com/
+
+Con Life is a crowd-sourced database for fan conventions across the United States and around the world built with JavaScript, jQuery, Node, Express, MongoDB, HTML5 and CSS3. This app was inspired by all of the fan conventions I've attended over the years.
+Github: https://github.com/TheGaff87/con_life
+Live app: https://con-life.herokuapp.com/#
+
+Next Show recommends TV shows based on your preferences and tells you where to watch them. I've already used it to find some new favorite shows. Built with JavaScript, jQuery, HTML5, and CSS3. Uses TasteDive (https://tastedive.com/read/api) and UTelly (https://rapidapi.com/utelly/api/utelly) APIs.
+Github: https://github.com/TheGaff87/next_show
+Live app: https://thegaff87.github.io/next_show/
