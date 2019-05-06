@@ -63,6 +63,10 @@ nav {
       color: #000066;
   }
 
+  h2 {
+      margin-bottom: 35px;
+  }
+
   a:hover {
     text-decoration: underline;
   }
@@ -94,11 +98,12 @@ nav {
   }
 
   .headline {
-      margin-top: 100px;
+      margin-top: 110px;
+      margin-bottom: 30px;
   }
 
-  section {
-      margin-top: 3em;
+  .headline2 {
+      margin-top: 30px;
   }
 
   article {
@@ -109,6 +114,11 @@ nav {
 
   a {
       text-decoration: none;
+  }
+
+  .anchor {
+    display: block;
+    padding-top: 35px;
   }
 
   @media only screen and (min-width: 710px) {
