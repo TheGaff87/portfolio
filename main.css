@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
     
     text-align: center;
     line-height: 1.5;
+
 }
 
 .row {
@@ -43,7 +44,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 10;
-    background-color: black;
+    background-color: #000066;
     color: white;
     height: 70px;
     text-align: center;
@@ -54,8 +55,24 @@ nav {
       font-size: 1.75em;
   }
 
+  h1, h2, h3, .headline, nav li a {
+    font-family: 'Stylish', sans-serif;
+  }
+
+  h1, h2, h3, span a, span a:visited, p a, p a:visited {
+      color: #000066;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav li a, nav li a:visited, footer a, footer a:visited {
+      color: white;
+  }
+
   footer {
-    background-color: black;
+    background-color: #000066;
     color: white;
     height: 25px;
   }
@@ -95,9 +112,24 @@ nav {
   }
 
   @media only screen and (min-width: 710px) {
-    img {
+    .headshot {
         width: 600px;
-        height: 375px;
+        height: 450px;
+    }
+
+    .creatures {
+        width: 600px;
+        height: 319px;
+    }
+
+    .con {
+        width: 600px;
+        height: 297px;
+    }
+
+    .show {
+        width: 600px;
+        height: 320px;
     }
 
     section p, section span article p, article span, .headline2 {
@@ -124,5 +156,12 @@ nav {
     footer {
         font-size: 1.15em;
         height: 40px;
+    }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 709px) {
+    
+    nav {
+        padding-top: 20px;
     }
 }
